@@ -1,5 +1,5 @@
 {
-    "Name": "Open iEEG Dataset",
+    "Name": "Open iEEG Dataset (UCLA/CHM)",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
