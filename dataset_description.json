@@ -1,5 +1,5 @@
 {
-    "Name": "Open iEEG Dataset",
+    "Name": "Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",
     "BIDSVersion": "1.7.0",
     "DatasetType": "raw",
     "Authors": [
