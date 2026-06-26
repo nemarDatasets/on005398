@@ -1,45 +1,183 @@
 {
   "version": "2.0",
-  "dataset_id": "on005398",
-  "source": "openneuro",
-  "source_id": "ds005398",
+  "pipeline_stage": "enriched",
   "title": "Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Yipeng Zhang": {},
+    "Yipeng Zhang": {
+      "orcid": "0000-0003-2869-4692",
+      "affiliations": [
+        {
+          "name": "Department of Electrical and Computer Engineering University of California, Los Angeles (UCLA)  Los Angeles California USA"
+        }
+      ]
+    },
     "Atsuro Daida": {},
     "Lawrence Liu": {},
-    "Naoto Kuroda": {},
+    "Naoto Kuroda": {
+      "orcid": "0000-0003-1977-4893",
+      "affiliations": [
+        {
+          "name": "Department of Pediatrics and Neurology, Children's Hospital of Michigan Wayne State University School of Medicine  Detroit Michigan USA"
+        }
+      ]
+    },
     "Yuanyi Ding": {},
     "Shingo Oana": {},
     "Tonmoy Monsoor": {},
     "Chenda Duan": {},
-    "Shaun A. Hussain": {},
+    "Shaun A. Hussain": {
+      "orcid": "0000-0001-6947-8852",
+      "affiliations": [
+        {
+          "name": "Division of Pediatric Neurology, Department of Pediatrics, UCLA Mattel Children's Hospital David Geffen School of Medicine at UCLA  Los Angeles California USA"
+        },
+        {
+          "name": "UCLA Children's Discovery and Innovation Institute  Los Angeles California USA"
+        }
+      ]
+    },
     "Joe X Qiao": {},
     "Noriko Salamon": {},
-    "Aria Fallah": {},
+    "Aria Fallah": {
+      "orcid": "0000-0002-9703-0964",
+      "affiliations": [
+        {
+          "name": "Department of Neurosurgery, UCLA Medical Center David Geffen School of Medicine  Los Angeles California USA"
+        }
+      ]
+    },
     "Myung Shin Sim": {},
     "Raman Sankar": {},
     "Richard J. Staba": {},
     "Jerome Engel Jr.": {},
-    "Eishi Asano": {},
-    "Vwani Roychowdhury": {},
-    "Hiroki Nariai": {}
+    "Eishi Asano": {
+      "orcid": "0000-0001-8391-4067",
+      "affiliations": [
+        {
+          "name": "Department of Pediatrics and Neurology, Children's Hospital of Michigan Wayne State University School of Medicine  Detroit Michigan USA"
+        }
+      ]
+    },
+    "Vwani Roychowdhury": {
+      "orcid": "0000-0003-0832-6489",
+      "affiliations": [
+        {
+          "name": "Department of Electrical and Computer Engineering University of California, Los Angeles (UCLA)  Los Angeles California USA"
+        }
+      ]
+    },
+    "Hiroki Nariai": {
+      "orcid": "0000-0002-8318-2924",
+      "affiliations": [
+        {
+          "name": "Division of Pediatric Neurology, Department of Pediatrics, UCLA Mattel Children's Hospital David Geffen School of Medicine at UCLA  Los Angeles California USA"
+        },
+        {
+          "name": "UCLA Children's Discovery and Innovation Institute  Los Angeles California USA"
+        }
+      ]
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005398.v1.1.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005398",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005398",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1111/epi.18545",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2025.01.31.25321482",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1093/braincomms/fcab267",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1093/braincomms/fcab042",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "ieeg"
   ],
-  "datatypes": [
-    "ieeg"
-  ]
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises de-identified interictal intracranial EEG (iEEG) recordings during sleep from 185 pediatric subjects with epilepsy, collected from UCLA Mattel Children's Hospital and Children's Hospital of Michigan. The dataset includes raw iEEG data with anatomical labels and clinical outcomes, along with processed derivatives containing high-frequency oscillation (HFO) detections using RMS and MNI methods. This resource supports research on pathological oscillations, epileptogenic zone characterization, and seizure prediction biomarkers.",
+  "methods_description": "Intracranial EEG recordings were collected during sleep from pediatric epilepsy patients at two institutions. Processed derivatives include HFO detection using two methods (RMS and MNI detectors) and bipolar iEEG data. Channel-level anatomical labels and resection status information are provided for each subject.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "high-frequency oscillations"
+    },
+    {
+      "term": "pediatric"
+    },
+    {
+      "term": "sleep"
+    },
+    {
+      "term": "seizure prediction"
+    },
+    {
+      "term": "epileptogenic zone"
+    },
+    {
+      "term": "interictal"
+    },
+    {
+      "term": "bipolar montage"
+    },
+    {
+      "term": "RMS detector"
+    },
+    {
+      "term": "MNI detector"
+    },
+    {
+      "term": "electrode localization"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institutes of Health",
+      "award_number": ""
+    }
+  ],
+  "source_hash": "4d5ba01321415cc7bc4e95494b1e91082ccba5de0097c645593950a213095a93"
 }
