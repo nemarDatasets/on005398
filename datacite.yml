@@ -1,1 +1,225 @@
-.git/annex/objects/xP/1m/SHA256E-s5862--d83827608634746263e664e0871182a1a80684ff10420bef4358c1a3d8dbbe6e.yml/SHA256E-s5862--d83827608634746263e664e0871182a1a80684ff10420bef4358c1a3d8dbbe6e.yml
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Yipeng Zhang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 1
+      - name: Atsuro Daida
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Naoto Kuroda
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 3
+      - name: Shingo Oana
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 4
+      - name: Sotaro Kanai
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 5
+      - name: Masaki Izumi
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 6
+      - name: Yuanyi Ding
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 7
+      - name: Tonmoy Monsoor
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 8
+      - name: Lawrence Liu
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 9
+      - name: Blanca Romero Milà
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 10
+      - name: Nathan Phi Hoang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 11
+      - name: Chenda Duan
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 12
+      - name: Shaun A. Hussain
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 13
+      - name: Joe X Qiao
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 14
+      - name: Noriko Salamon
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 15
+      - name: Aria Fallah
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 16
+      - name: Myung Shin Sim
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 17
+      - name: Raman Sankar
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 18
+      - name: Richard J. Staba
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 19
+      - name: Jerome Engel Jr.
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 20
+      - name: Beth Lopour
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 21
+      - name: Eishi Asano
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 22
+      - name: Vwani Roychowdhury
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 23
+      - name: Hiroki Nariai
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 24
+    creators:
+      - name: Yipeng Zhang
+        nameType: Personal
+      - name: Atsuro Daida
+        nameType: Personal
+      - name: Naoto Kuroda
+        nameType: Personal
+      - name: Shingo Oana
+        nameType: Personal
+      - name: Sotaro Kanai
+        nameType: Personal
+      - name: Masaki Izumi
+        nameType: Personal
+      - name: Yuanyi Ding
+        nameType: Personal
+      - name: Tonmoy Monsoor
+        nameType: Personal
+      - name: Lawrence Liu
+        nameType: Personal
+      - name: Blanca Romero Milà
+        nameType: Personal
+      - name: Nathan Phi Hoang
+        nameType: Personal
+      - name: Chenda Duan
+        nameType: Personal
+      - name: Shaun A. Hussain
+        nameType: Personal
+      - name: Joe X Qiao
+        nameType: Personal
+      - name: Noriko Salamon
+        nameType: Personal
+      - name: Aria Fallah
+        nameType: Personal
+      - name: Myung Shin Sim
+        nameType: Personal
+      - name: Raman Sankar
+        nameType: Personal
+      - name: Richard J. Staba
+        nameType: Personal
+      - name: Jerome Engel Jr.
+        nameType: Personal
+      - name: Beth Lopour
+        nameType: Personal
+      - name: Eishi Asano
+        nameType: Personal
+      - name: Vwani Roychowdhury
+        nameType: Personal
+      - name: Hiroki Nariai
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
