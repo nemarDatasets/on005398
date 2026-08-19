@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",
-  "description": "This dataset comprises de-identified interictal intracranial EEG (iEEG) recordings during sleep from 185 pediatric subjects with epilepsy, collected from UCLA Mattel Children's Hospital and Children's Hospital of Michigan. The dataset includes raw iEEG data with anatomical labels and clinical metadata, along with processed derivatives containing high-frequency oscillation (HFO) detections using RMS and MNI methods. This resource supports research on pathological HFO characterization, epileptogenic zone localization, and seizure outcome prediction.",
-  "methods_description": "Interictal iEEG recordings were collected during sleep from pediatric epilepsy patients at two institutions. Channel-level anatomical labels and clinical information including resection status are provided. Processed derivatives include HFO detection using RMS and MNI detector methods, and bipolar iEEG data reformatted for specific analyses.",
+  "description": "This dataset contains de-identified intracranial EEG (iEEG) recordings during sleep from 185 pediatric epilepsy patients collected at UCLA Mattel Children's Hospital and Children's Hospital of Michigan, Detroit. It includes channel-level anatomical labels, resection status, and outcome information, along with derivatives for high-frequency oscillation (HFO) detection and classification using RMS and MNI detectors. The dataset supports research on interictal iEEG biomarkers for predicting epilepsy surgery outcomes.",
+  "methods_description": "Interictal iEEG recordings were collected during sleep from pediatric epilepsy patients. Subject-wise data includes channel names, anatomical labels, and resection status. HFO detection and classification derivatives were generated using RMS and MNI detection methods, with additional bipolar iEEG data processed for time-frequency analysis.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,7 +15,14 @@
         }
       ]
     },
-    "Atsuro Daida": {},
+    "Atsuro Daida": {
+      "orcid": "0000-0003-1350-7700",
+      "affiliations": [
+        {
+          "name": "Department of Pediatrics, Division of Pediatric Neurology, David Geffen School of Medicine at the University of California, Los Angeles, California, USA"
+        }
+      ]
+    },
     "Lawrence Liu": {},
     "Naoto Kuroda": {
       "orcid": "0000-0003-1977-4893",
@@ -84,31 +91,29 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "epilepsy"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
       "term": "high-frequency oscillations"
     },
     {
-      "term": "pediatric"
-    },
-    {
-      "term": "seizure"
-    },
-    {
-      "term": "sleep"
-    },
-    {
-      "term": "epileptogenic zone"
-    },
-    {
-      "term": "interictal"
+      "term": "intracranial EEG"
     },
     {
       "term": "pediatric epilepsy"
+    },
+    {
+      "term": "epilepsy surgery"
+    },
+    {
+      "term": "sleep"
     },
     {
       "term": "HFO detection"
@@ -117,11 +122,6 @@
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005398",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005398",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -153,7 +153,12 @@
     {
       "identifier": "10.64898/2026.06.12.26355482",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsSupplementTo"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005398",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
